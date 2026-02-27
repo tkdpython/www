@@ -220,6 +220,12 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                 // Update last updated time
                 document.getElementById('lastUpdated').textContent = new Date(data.last_updated).toLocaleString();
 
+                // Get latest workout info
+                const latestWorkout = data.metrics.workout_sessions?.[data.metrics.workout_sessions.length - 1];
+                const workoutDisplay = latestWorkout?.value 
+                    ? `${latestWorkout.value} min${latestWorkout.activity_summary ? ' (' + Object.entries(latestWorkout.activity_summary).map(([act, mins]) => `${act} ${mins}m`).join(', ') + ')' : ''}`
+                    : null;
+
                 // Display latest metrics (most recent day)
                 const latestMetrics = {
                     'Steps': { value: data.metrics.steps?.[data.metrics.steps.length - 1]?.value, unit: 'steps' },
@@ -228,7 +234,8 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                     'Active Minutes': { value: data.metrics.active_minutes?.[data.metrics.active_minutes.length - 1]?.value, unit: 'min' },
                     'Heart Rate': { value: data.metrics.heart_rate_bpm?.[data.metrics.heart_rate_bpm.length - 1]?.value?.toFixed(0), unit: 'bpm' },
                     'Weight': { value: data.metrics.weight_kg?.[data.metrics.weight_kg.length - 1]?.value?.toFixed(1), unit: 'kg' },
-                    'Sleep': { value: data.metrics.sleep_segments?.[data.metrics.sleep_segments.length - 1]?.value?.toFixed(1), unit: 'hours' }
+                    'Sleep': { value: data.metrics.sleep_segments?.[data.metrics.sleep_segments.length - 1]?.value?.toFixed(1), unit: 'hours' },
+                    'Workouts': { value: workoutDisplay, unit: '' }
                 };
 
                 metricsEl.innerHTML = Object.entries(latestMetrics)
