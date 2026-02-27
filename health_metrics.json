@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T17:53:01Z",
+  "last_updated": "2026-02-27T18:48:58Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -61,9 +61,9 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 9184,
+        "value": 9329,
         "values": [
-          9184
+          9329
         ]
       }
     ],
@@ -126,9 +126,9 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 1761.3301587894973,
+        "value": 1927.0457674323054,
         "values": [
-          1761.3301587894973
+          1927.0457674323054
         ]
       }
     ],
@@ -192,9 +192,9 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 77,
+        "value": 80,
         "values": [
-          77
+          80
         ]
       }
     ],
@@ -271,7 +271,7 @@
         "end_time_millis": 1772236800000,
         "value": 54,
         "values": [
-          74.99747891092915,
+          74.89708834384727,
           112,
           54
         ]
@@ -412,6 +412,88 @@
           3.21
         ],
         "sessions": 4
+      }
+    ],
+    "workout_sessions": [
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-22",
+        "start_time_millis": 1771718400000,
+        "end_time_millis": 1771804800000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-23",
+        "start_time_millis": 1771804800000,
+        "end_time_millis": 1771891200000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-24",
+        "start_time_millis": 1771891200000,
+        "end_time_millis": 1771977600000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-25",
+        "start_time_millis": 1771977600000,
+        "end_time_millis": 1772064000000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-26",
+        "start_time_millis": 1772064000000,
+        "end_time_millis": 1772150400000,
+        "value": null,
+        "total_minutes": 0,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-27",
+        "start_time_millis": 1772150400000,
+        "end_time_millis": 1772236800000,
+        "value": 55.6,
+        "total_minutes": 55.6,
+        "workout_count": 1,
+        "workouts": [
+          {
+            "activity": "Activity 95",
+            "activity_type": 95,
+            "duration_mins": 55.6,
+            "start_time": "2026-02-27T09:13:57.122000+00:00",
+            "name": "Walking"
+          }
+        ],
+        "activity_summary": {
+          "Activity 95": 55.6
+        }
       }
     ]
   }
