@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T19:01:13Z",
+  "last_updated": "2026-02-27T19:03:57Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -132,7 +132,71 @@
         ]
       }
     ],
-    "distance_meters": [],
+    "distance_meters": [
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 3667.008689357792,
+        "values": [
+          3667.008689357792
+        ]
+      },
+      {
+        "date": "2026-02-22",
+        "start_time_millis": 1771718400000,
+        "end_time_millis": 1771804800000,
+        "value": 6204.822043491084,
+        "values": [
+          6204.822043491084
+        ]
+      },
+      {
+        "date": "2026-02-23",
+        "start_time_millis": 1771804800000,
+        "end_time_millis": 1771891200000,
+        "value": 4017.022324631046,
+        "values": [
+          4017.022324631046
+        ]
+      },
+      {
+        "date": "2026-02-24",
+        "start_time_millis": 1771891200000,
+        "end_time_millis": 1771977600000,
+        "value": 4950.854406381356,
+        "values": [
+          4950.854406381356
+        ]
+      },
+      {
+        "date": "2026-02-25",
+        "start_time_millis": 1771977600000,
+        "end_time_millis": 1772064000000,
+        "value": 3275.446585047852,
+        "values": [
+          3275.446585047852
+        ]
+      },
+      {
+        "date": "2026-02-26",
+        "start_time_millis": 1772064000000,
+        "end_time_millis": 1772150400000,
+        "value": 2436.639144741216,
+        "values": [
+          2436.639144741216
+        ]
+      },
+      {
+        "date": "2026-02-27",
+        "start_time_millis": 1772150400000,
+        "end_time_millis": 1772236800000,
+        "value": 7003.016599470808,
+        "values": [
+          7003.016599470808
+        ]
+      }
+    ],
     "active_minutes": [
       {
         "date": "2026-02-21",
@@ -495,7 +559,7 @@
             "activity_type": 95,
             "duration_mins": 55.6,
             "calories": 671.4,
-            "distance_meters": null,
+            "distance_meters": 4874.0,
             "start_time": "2026-02-27T09:13:57.122000+00:00",
             "name": "Walking"
           }
