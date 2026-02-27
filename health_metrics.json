@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T18:57:08Z",
+  "last_updated": "2026-02-27T19:01:13Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -487,14 +487,14 @@
         "end_time_millis": 1772236800000,
         "value": 55.6,
         "total_minutes": 55.6,
-        "total_calories": null,
+        "total_calories": 671.4,
         "workout_count": 1,
         "workouts": [
           {
             "activity": "Activity 95",
             "activity_type": 95,
             "duration_mins": 55.6,
-            "calories": null,
+            "calories": 671.4,
             "distance_meters": null,
             "start_time": "2026-02-27T09:13:57.122000+00:00",
             "name": "Walking"
