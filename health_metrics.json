@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T17:28:37Z",
+  "last_updated": "2026-02-27T17:30:54Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -337,50 +337,83 @@
         "date": "2026-02-21",
         "start_time_millis": 1771632000000,
         "end_time_millis": 1771718400000,
-        "value": null,
-        "values": []
+        "value": 1.48,
+        "values": [
+          1.48
+        ],
+        "sessions": 1
       },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
         "end_time_millis": 1771804800000,
-        "value": null,
-        "values": []
+        "value": 3.87,
+        "values": [
+          1.63,
+          0.57,
+          1.68
+        ],
+        "sessions": 3
       },
       {
         "date": "2026-02-23",
         "start_time_millis": 1771804800000,
         "end_time_millis": 1771891200000,
-        "value": null,
-        "values": []
+        "value": 3.06,
+        "values": [
+          0.17,
+          2.89
+        ],
+        "sessions": 2
       },
       {
         "date": "2026-02-24",
         "start_time_millis": 1771891200000,
         "end_time_millis": 1771977600000,
-        "value": null,
-        "values": []
+        "value": 3.42,
+        "values": [
+          1.21,
+          0.33,
+          1.89
+        ],
+        "sessions": 3
       },
       {
         "date": "2026-02-25",
         "start_time_millis": 1771977600000,
         "end_time_millis": 1772064000000,
-        "value": null,
-        "values": []
+        "value": 6.97,
+        "values": [
+          3.05,
+          0.19,
+          1.58,
+          2.15
+        ],
+        "sessions": 4
       },
       {
         "date": "2026-02-26",
         "start_time_millis": 1772064000000,
         "end_time_millis": 1772150400000,
-        "value": null,
-        "values": []
+        "value": 7.4,
+        "values": [
+          2.96,
+          2.11,
+          0.82,
+          1.51
+        ],
+        "sessions": 4
       },
       {
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": null,
-        "values": []
+        "value": 5.18,
+        "values": [
+          1.97,
+          3.21
+        ],
+        "sessions": 2
       }
     ]
   }
