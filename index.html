@@ -223,7 +223,7 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                 // Get latest workout info
                 const latestWorkout = data.metrics.workout_sessions?.[data.metrics.workout_sessions.length - 1];
                 const workoutDisplay = latestWorkout?.value 
-                    ? `${latestWorkout.value} min${latestWorkout.activity_summary ? ' (' + Object.entries(latestWorkout.activity_summary).map(([act, mins]) => `${act} ${mins}m`).join(', ') + ')' : ''}`
+                    ? `${latestWorkout.value} min${latestWorkout.total_calories ? ` (${latestWorkout.total_calories} kcal)` : ''}${latestWorkout.activity_summary ? ' - ' + Object.entries(latestWorkout.activity_summary).map(([act, mins]) => `${act} ${mins}m`).join(', ') : ''}`
                     : null;
 
                 // Display latest metrics (most recent day)
