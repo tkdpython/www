@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Metrics - Google Fit Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status.loading {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+
+        .status.success {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+
+        .status.error {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .metric-date {
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+
+        .api-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .api-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏃‍♂️ Health Metrics Dashboard</h1>
+        <p class="subtitle">Automated Google Fit data sync via GitHub Pages</p>
+
+        <div id="status" class="status loading">
+            <div class="spinner"></div>
+            <span>Loading health metrics...</span>
+        </div>
+
+        <div id="metrics" class="metrics-grid"></div>
+
+        <div class="api-section">
+            <h2>📊 Access the Data</h2>
+            <p style="margin-bottom: 15px;">
+                The health metrics are available as JSON at:
+            </p>
+            <div class="code-block" id="apiUrl">Loading...</div>
+            
+            <h3 style="margin-top: 20px; margin-bottom: 10px; color: #667eea;">Example Usage:</h3>
+            <div class="code-block">
+fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json</span>')
+  .then(response => response.json())
+  .then(data => {
+    console.log('Last updated:', data.last_updated);
+    console.log('Steps today:', data.metrics.steps[0]?.value);
+  });
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                Data synced daily at 06:00 UTC via GitHub Actions
+            </p>
+            <p style="margin-top: 10px;">
+                Last updated: <span id="lastUpdated">-</span>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const apiUrl = window.location.origin + window.location.pathname.replace('index.html', '') + 'health_metrics.json';
+        
+        // Update API URL displays
+        document.getElementById('apiUrl').textContent = apiUrl;
+        document.getElementById('exampleUrl').textContent = apiUrl;
+
+        async function loadMetrics() {
+            const statusEl = document.getElementById('status');
+            const metricsEl = document.getElementById('metrics');
+
+            try {
+                const response = await fetch(apiUrl);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                
+                // Update status
+                statusEl.className = 'status success';
+                statusEl.innerHTML = '<span style="font-size: 1.2em;">✓</span> <span>Successfully loaded health metrics</span>';
+
+                // Update last updated time
+                document.getElementById('lastUpdated').textContent = new Date(data.last_updated).toLocaleString();
+
+                // Display latest metrics (most recent day)
+                const latestMetrics = {
+                    'Steps': { value: data.metrics.steps?.[data.metrics.steps.length - 1]?.value, unit: 'steps' },
+                    'Calories': { value: data.metrics.calories?.[data.metrics.calories.length - 1]?.value, unit: 'kcal' },
+                    'Distance': { value: (data.metrics.distance_meters?.[data.metrics.distance_meters.length - 1]?.value / 1000)?.toFixed(2), unit: 'km' },
+                    'Active Minutes': { value: data.metrics.active_minutes?.[data.metrics.active_minutes.length - 1]?.value, unit: 'min' },
+                    'Heart Rate': { value: data.metrics.heart_rate_bpm?.[data.metrics.heart_rate_bpm.length - 1]?.value?.toFixed(0), unit: 'bpm' },
+                    'Weight': { value: data.metrics.weight_kg?.[data.metrics.weight_kg.length - 1]?.value?.toFixed(1), unit: 'kg' }
+                };
+
+                metricsEl.innerHTML = Object.entries(latestMetrics)
+                    .map(([label, metric]) => `
+                        <div class="metric-card">
+                            <div class="metric-label">${label}</div>
+                            <div class="metric-value">${metric.value ?? 'N/A'}</div>
+                            <div class="metric-date">${metric.unit} • ${data.end_date}</div>
+                        </div>
+                    `).join('');
+
+            } catch (error) {
+                statusEl.className = 'status error';
+                statusEl.innerHTML = `<span style="font-size: 1.2em;">✗</span> <span>Error: ${error.message}</span>`;
+                
+                metricsEl.innerHTML = `
+                    <div style="grid-column: 1 / -1; padding: 20px; text-align: center; color: #666;">
+                        <p>Could not load health metrics. The data file may not exist yet.</p>
+                        <p style="margin-top: 10px; font-size: 0.9em;">
+                            Run the GitHub Action to generate data.
+                        </p>
+                    </div>
+                `;
+            }
+        }
+
+        // Load metrics on page load
+        loadMetrics();
+    </script>
+</body>
+</html>
