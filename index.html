@@ -223,11 +223,12 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                 // Display latest metrics (most recent day)
                 const latestMetrics = {
                     'Steps': { value: data.metrics.steps?.[data.metrics.steps.length - 1]?.value, unit: 'steps' },
-                    'Calories': { value: data.metrics.calories?.[data.metrics.calories.length - 1]?.value, unit: 'kcal' },
+                    'Calories': { value: data.metrics.calories?.[data.metrics.calories.length - 1]?.value?.toFixed(0), unit: 'kcal' },
                     'Distance': { value: (data.metrics.distance_meters?.[data.metrics.distance_meters.length - 1]?.value / 1000)?.toFixed(2), unit: 'km' },
                     'Active Minutes': { value: data.metrics.active_minutes?.[data.metrics.active_minutes.length - 1]?.value, unit: 'min' },
                     'Heart Rate': { value: data.metrics.heart_rate_bpm?.[data.metrics.heart_rate_bpm.length - 1]?.value?.toFixed(0), unit: 'bpm' },
-                    'Weight': { value: data.metrics.weight_kg?.[data.metrics.weight_kg.length - 1]?.value?.toFixed(1), unit: 'kg' }
+                    'Weight': { value: data.metrics.weight_kg?.[data.metrics.weight_kg.length - 1]?.value?.toFixed(1), unit: 'kg' },
+                    'Sleep': { value: data.metrics.sleep_segments?.[data.metrics.sleep_segments.length - 1]?.value?.toFixed(1), unit: 'hours' }
                 };
 
                 metricsEl.innerHTML = Object.entries(latestMetrics)
