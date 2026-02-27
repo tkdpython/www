@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T17:42:33Z",
+  "last_updated": "2026-02-27T17:53:01Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -271,7 +271,7 @@
         "end_time_millis": 1772236800000,
         "value": 54,
         "values": [
-          74.98719546501172,
+          74.99747891092915,
           112,
           54
         ]
@@ -358,21 +358,19 @@
         "date": "2026-02-23",
         "start_time_millis": 1771804800000,
         "end_time_millis": 1771891200000,
-        "value": 0.17,
-        "values": [
-          0.17
-        ],
-        "sessions": 1
+        "value": null,
+        "values": [],
+        "sessions": 0
       },
       {
         "date": "2026-02-24",
         "start_time_millis": 1771891200000,
         "end_time_millis": 1771977600000,
-        "value": 4.42,
+        "value": 4.26,
         "values": [
+          0.17,
           2.89,
-          1.21,
-          0.33
+          1.21
         ],
         "sessions": 3
       },
@@ -380,39 +378,40 @@
         "date": "2026-02-25",
         "start_time_millis": 1771977600000,
         "end_time_millis": 1772064000000,
-        "value": 6.71,
+        "value": 5.26,
         "values": [
+          0.33,
           1.89,
-          3.05,
-          0.19,
-          1.58
+          3.05
         ],
-        "sessions": 4
+        "sessions": 3
       },
       {
         "date": "2026-02-26",
         "start_time_millis": 1772064000000,
         "end_time_millis": 1772150400000,
-        "value": 8.04,
+        "value": 9.0,
         "values": [
+          0.19,
+          1.58,
           2.15,
           2.96,
-          2.11,
-          0.82
+          2.11
         ],
-        "sessions": 4
+        "sessions": 5
       },
       {
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 6.69,
+        "value": 7.51,
         "values": [
+          0.82,
           1.51,
           1.97,
           3.21
         ],
-        "sessions": 3
+        "sessions": 4
       }
     ]
   }
