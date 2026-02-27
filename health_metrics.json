@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T18:48:58Z",
+  "last_updated": "2026-02-27T18:52:49Z",
   "end_date": "2026-02-27",
   "metrics": {
     "steps": [
@@ -421,6 +421,7 @@
         "end_time_millis": 1771718400000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -431,6 +432,7 @@
         "end_time_millis": 1771804800000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -441,6 +443,7 @@
         "end_time_millis": 1771891200000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -451,6 +454,7 @@
         "end_time_millis": 1771977600000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -461,6 +465,7 @@
         "end_time_millis": 1772064000000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -471,6 +476,7 @@
         "end_time_millis": 1772150400000,
         "value": null,
         "total_minutes": 0,
+        "total_calories": null,
         "workout_count": 0,
         "workouts": [],
         "activity_summary": {}
@@ -481,12 +487,14 @@
         "end_time_millis": 1772236800000,
         "value": 55.6,
         "total_minutes": 55.6,
+        "total_calories": 469.4,
         "workout_count": 1,
         "workouts": [
           {
             "activity": "Activity 95",
             "activity_type": 95,
             "duration_mins": 55.6,
+            "calories": 469.4,
             "start_time": "2026-02-27T09:13:57.122000+00:00",
             "name": "Walking"
           }
