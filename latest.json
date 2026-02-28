@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T09:44:27Z",
+  "last_updated": "2026-02-28T09:49:20Z",
   "steps": {
     "date": "2026-02-28",
     "value": 868
@@ -31,11 +31,11 @@
         "distance_km": 11.76,
         "calories": 192,
         "hr_zones": {
-          "zone_1_recovery": 1.97,
-          "zone_2_fat_burn": 7.62,
-          "zone_3_aerobic": 26.16,
-          "zone_4_threshold": 0.12,
-          "zone_5_vo2_max": 0.0,
+          "zone_1_recovery_mins": 1.97,
+          "zone_2_fat_burn_mins": 7.62,
+          "zone_3_aerobic_mins": 26.16,
+          "zone_4_threshold_mins": 0.12,
+          "zone_5_vo2_max_mins": 0.0,
           "max_hr_used": 169
         }
       }
