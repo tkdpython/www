@@ -1,0 +1,36 @@
+{
+  "last_updated": "2026-02-28T08:47:32Z",
+  "steps": {
+    "date": "2026-02-28",
+    "value": 635
+  },
+  "weight_kg": {
+    "date": "2026-02-28",
+    "value": 121.5,
+    "change_kg": -2.8,
+    "previous_date": "2026-02-27",
+    "previous_value": 124.3
+  },
+  "sleep_hours": {
+    "date": "2026-02-28",
+    "value": 7.19
+  },
+  "heart_rate_bpm": {
+    "date": "2026-02-28",
+    "value": 58.1
+  },
+  "activities": {
+    "date": "2026-02-27",
+    "workout_count": 1,
+    "total_minutes": 55.6,
+    "total_calories": 469.4,
+    "workouts": [
+      {
+        "activity": "Activity 95",
+        "duration_mins": 55.6,
+        "distance_km": 4.87,
+        "calories": 469.4
+      }
+    ]
+  }
+}
