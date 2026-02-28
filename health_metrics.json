@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T09:44:27Z",
+  "last_updated": "2026-02-28T09:49:20Z",
   "end_date": "2026-02-28",
   "metrics": {
     "steps": [
@@ -1984,11 +1984,11 @@
             "start_time": "2026-02-27T09:13:57.122000+00:00",
             "name": "Walking",
             "hr_zones": {
-              "zone_1_recovery": 51.86,
-              "zone_2_fat_burn": 1.46,
-              "zone_3_aerobic": 0.0,
-              "zone_4_threshold": 0.0,
-              "zone_5_vo2_max": 0.0,
+              "zone_1_recovery_mins": 51.86,
+              "zone_2_fat_burn_mins": 1.46,
+              "zone_3_aerobic_mins": 0.0,
+              "zone_4_threshold_mins": 0.0,
+              "zone_5_vo2_max_mins": 0.0,
               "max_hr_used": 169
             }
           }
@@ -2015,11 +2015,11 @@
             "start_time": "2026-02-28T09:02:13+00:00",
             "name": "Cycling",
             "hr_zones": {
-              "zone_1_recovery": 1.97,
-              "zone_2_fat_burn": 7.62,
-              "zone_3_aerobic": 26.16,
-              "zone_4_threshold": 0.12,
-              "zone_5_vo2_max": 0.0,
+              "zone_1_recovery_mins": 1.97,
+              "zone_2_fat_burn_mins": 7.62,
+              "zone_3_aerobic_mins": 26.16,
+              "zone_4_threshold_mins": 0.12,
+              "zone_5_vo2_max_mins": 0.0,
               "max_hr_used": 169
             }
           }
