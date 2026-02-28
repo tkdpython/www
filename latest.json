@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-28T09:27:54Z",
+  "last_updated": "2026-02-28T09:36:21Z",
   "steps": {
     "date": "2026-02-28",
-    "value": 843
+    "value": 868
   },
   "weight_kg": {
     "date": "2026-02-28",
@@ -21,21 +21,15 @@
   },
   "activities": {
     "date": "2026-02-28",
-    "workout_count": 2,
-    "total_minutes": 23.5,
-    "total_calories": 149.5,
+    "workout_count": 1,
+    "total_minutes": 30.6,
+    "total_calories": 192,
     "workouts": [
       {
         "activity": "Spinning",
-        "duration_mins": 4.0,
-        "distance_km": 0.91,
-        "calories": 18
-      },
-      {
-        "activity": "Spinning",
-        "duration_mins": 19.5,
-        "distance_km": 0.02,
-        "calories": 131.5
+        "duration_mins": 30.6,
+        "distance_km": 11.76,
+        "calories": 192
       }
     ]
   }
