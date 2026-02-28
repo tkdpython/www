@@ -200,6 +200,18 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
         document.getElementById('apiUrl').textContent = apiUrl;
         document.getElementById('exampleUrl').textContent = apiUrl;
 
+        // Walk backwards through a metric array to find the most recent entry
+        // with a non-null value. Returns { value, date } or { value: null, date: null }.
+        function latestNonNull(arr) {
+            if (!arr) return { value: null, date: null };
+            for (let i = arr.length - 1; i >= 0; i--) {
+                if (arr[i]?.value != null) {
+                    return { value: arr[i].value, date: arr[i].date };
+                }
+            }
+            return { value: null, date: null };
+        }
+
         async function loadMetrics() {
             const statusEl = document.getElementById('status');
             const metricsEl = document.getElementById('metrics');
@@ -220,10 +232,26 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                 // Update last updated time
                 document.getElementById('lastUpdated').textContent = new Date(data.last_updated).toLocaleString();
 
-                // Get latest workout info
-                const latestWorkout = data.metrics.workout_sessions?.[data.metrics.workout_sessions.length - 1];
-                const workoutDisplay = latestWorkout?.value && latestWorkout.workouts?.length
-                    ? latestWorkout.workouts.map(w => {
+                // Find most recent non-null value for each metric
+                const steps        = latestNonNull(data.metrics.steps);
+                const calories     = latestNonNull(data.metrics.calories);
+                const distance     = latestNonNull(data.metrics.distance_meters);
+                const activeMins   = latestNonNull(data.metrics.active_minutes);
+                const heartRate    = latestNonNull(data.metrics.heart_rate_bpm);
+                const weight       = latestNonNull(data.metrics.weight_kg);
+                const sleep        = latestNonNull(data.metrics.sleep_segments);
+
+                // Get latest workout info (most recent day with actual workouts)
+                const latestWorkoutEntry = (() => {
+                    const arr = data.metrics.workout_sessions;
+                    if (!arr) return null;
+                    for (let i = arr.length - 1; i >= 0; i--) {
+                        if (arr[i]?.value != null && arr[i]?.workouts?.length) return arr[i];
+                    }
+                    return null;
+                })();
+                const workoutDisplay = latestWorkoutEntry
+                    ? latestWorkoutEntry.workouts.map(w => {
                         let desc = w.name || w.activity;
                         desc += ` ${w.duration_mins}m`;
                         if (w.distance_meters) desc += ` ${(w.distance_meters / 1000).toFixed(2)}km`;
@@ -232,16 +260,15 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                       }).join(', ')
                     : null;
 
-                // Display latest metrics (most recent day)
                 const latestMetrics = {
-                    'Steps': { value: data.metrics.steps?.[data.metrics.steps.length - 1]?.value, unit: 'steps' },
-                    'Calories': { value: data.metrics.calories?.[data.metrics.calories.length - 1]?.value?.toFixed(0), unit: 'kcal' },
-                    'Distance': { value: (data.metrics.distance_meters?.[data.metrics.distance_meters.length - 1]?.value / 1000)?.toFixed(2), unit: 'km' },
-                    'Active Minutes': { value: data.metrics.active_minutes?.[data.metrics.active_minutes.length - 1]?.value, unit: 'min' },
-                    'Heart Rate': { value: data.metrics.heart_rate_bpm?.[data.metrics.heart_rate_bpm.length - 1]?.value?.toFixed(0), unit: 'bpm' },
-                    'Weight': { value: data.metrics.weight_kg?.[data.metrics.weight_kg.length - 1]?.value?.toFixed(1), unit: 'kg' },
-                    'Sleep': { value: data.metrics.sleep_segments?.[data.metrics.sleep_segments.length - 1]?.value?.toFixed(1), unit: 'hours' },
-                    'Workouts': { value: workoutDisplay, unit: '' }
+                    'Steps':          { value: steps.value,                                              unit: 'steps', date: steps.date },
+                    'Calories':       { value: calories.value?.toFixed(0),                               unit: 'kcal',  date: calories.date },
+                    'Distance':       { value: distance.value != null ? (distance.value / 1000).toFixed(2) : null, unit: 'km', date: distance.date },
+                    'Active Minutes': { value: activeMins.value,                                         unit: 'min',   date: activeMins.date },
+                    'Heart Rate':     { value: heartRate.value != null ? heartRate.value.toFixed(0) : null, unit: 'bpm', date: heartRate.date },
+                    'Weight':         { value: weight.value != null ? weight.value.toFixed(1) : null,    unit: 'kg',    date: weight.date },
+                    'Sleep':          { value: sleep.value != null ? sleep.value.toFixed(1) : null,      unit: 'hours', date: sleep.date },
+                    'Workouts':       { value: workoutDisplay, unit: '', date: latestWorkoutEntry?.date ?? null },
                 };
 
                 metricsEl.innerHTML = Object.entries(latestMetrics)
@@ -249,7 +276,7 @@ fetch('<span id="exampleUrl">https://tkdpython.github.io/www/health_metrics.json
                         <div class="metric-card">
                             <div class="metric-label">${label}</div>
                             <div class="metric-value">${metric.value ?? 'N/A'}</div>
-                            <div class="metric-date">${metric.unit} • ${data.end_date}</div>
+                            <div class="metric-date">${metric.unit}${metric.date ? ' • ' + metric.date : ''}</div>
                         </div>
                     `).join('');
 
