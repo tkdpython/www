@@ -1,17 +1,8 @@
 {
-  "last_updated": "2026-02-27T19:06:53Z",
-  "end_date": "2026-02-27",
+  "last_updated": "2026-02-28T08:15:26Z",
+  "end_date": "2026-02-28",
   "metrics": {
     "steps": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": 5367,
-        "values": [
-          5367
-        ]
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -61,22 +52,22 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 9528,
+        "value": 10596,
         "values": [
-          9528
+          10596
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 334,
+        "values": [
+          334
         ]
       }
     ],
     "calories": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": 1976.9501953125002,
-        "values": [
-          1976.9501953125002
-        ]
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -126,22 +117,22 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 1999.5672538695753,
+        "value": 2494.7531992381796,
         "values": [
-          1999.5672538695753
+          2494.7531992381796
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 617.748943512221,
+        "values": [
+          617.748943512221
         ]
       }
     ],
     "distance_meters": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": 3667.008689357792,
-        "values": [
-          3667.008689357792
-        ]
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -191,22 +182,22 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 7003.016599470808,
+        "value": 7791.806357264991,
         "values": [
-          7003.016599470808
+          7791.806357264991
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 222.52158176898956,
+        "values": [
+          222.52158176898956
         ]
       }
     ],
     "active_minutes": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": 43,
-        "values": [
-          43
-        ]
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -256,24 +247,20 @@
         "date": "2026-02-27",
         "start_time_millis": 1772150400000,
         "end_time_millis": 1772236800000,
-        "value": 84,
+        "value": 99,
         "values": [
-          84
+          99
         ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": null,
+        "values": []
       }
     ],
     "heart_rate_bpm": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": 59,
-        "values": [
-          77.00959785821412,
-          105,
-          59
-        ]
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -335,20 +322,24 @@
         "end_time_millis": 1772236800000,
         "value": 54,
         "values": [
-          74.97760403906528,
+          73.40390476711016,
           112,
           54
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 58.09993362426758,
+        "values": [
+          66.89290023873332,
+          108,
+          58.09993362426758
         ]
       }
     ],
     "weight_kg": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -394,17 +385,20 @@
           124.30000305175781,
           124.30000305175781
         ]
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 121.5,
+        "values": [
+          121.5,
+          121.5,
+          121.5
+        ]
       }
     ],
     "sleep_segments": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": null,
-        "values": [],
-        "sessions": 0
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -476,20 +470,20 @@
           3.21
         ],
         "sessions": 4
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": 7.19,
+        "values": [
+          6.0,
+          1.19
+        ],
+        "sessions": 2
       }
     ],
     "workout_sessions": [
-      {
-        "date": "2026-02-21",
-        "start_time_millis": 1771632000000,
-        "end_time_millis": 1771718400000,
-        "value": null,
-        "total_minutes": 0,
-        "total_calories": null,
-        "workout_count": 0,
-        "workouts": [],
-        "activity_summary": {}
-      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -567,6 +561,17 @@
         "activity_summary": {
           "Activity 95": 55.6
         }
+      },
+      {
+        "date": "2026-02-28",
+        "start_time_millis": 1772236800000,
+        "end_time_millis": 1772323200000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
       }
     ]
   }
