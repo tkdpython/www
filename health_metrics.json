@@ -1,8 +1,173 @@
 {
-  "last_updated": "2026-02-28T08:15:26Z",
+  "last_updated": "2026-02-28T08:37:37Z",
   "end_date": "2026-02-28",
   "metrics": {
     "steps": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": 655,
+        "values": [
+          655
+        ]
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 5367,
+        "values": [
+          5367
+        ]
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -61,13 +226,182 @@
         "date": "2026-02-28",
         "start_time_millis": 1772236800000,
         "end_time_millis": 1772323200000,
-        "value": 334,
+        "value": 626,
         "values": [
-          334
+          626
         ]
       }
     ],
     "calories": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": 761.8764114509079,
+        "values": [
+          761.8764114509079
+        ]
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": 1976.9501953125002,
+        "values": [
+          1976.9501953125002
+        ]
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": 1976.9501953125002,
+        "values": [
+          1976.9501953125002
+        ]
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 1976.9501953125002,
+        "values": [
+          1976.9501953125002
+        ]
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -126,13 +460,178 @@
         "date": "2026-02-28",
         "start_time_millis": 1772236800000,
         "end_time_millis": 1772323200000,
-        "value": 617.748943512221,
+        "value": 706.5997153830772,
         "values": [
-          617.748943512221
+          706.5997153830772
         ]
       }
     ],
     "distance_meters": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": 503.7033772468567,
+        "values": [
+          503.7033772468567
+        ]
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 3667.008689357792,
+        "values": [
+          3667.008689357792
+        ]
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -191,13 +690,176 @@
         "date": "2026-02-28",
         "start_time_millis": 1772236800000,
         "end_time_millis": 1772323200000,
-        "value": 222.52158176898956,
+        "value": 379.6609006588668,
         "values": [
-          222.52158176898956
+          379.6609006588668
         ]
       }
     ],
     "active_minutes": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 43,
+        "values": [
+          43
+        ]
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -256,11 +918,178 @@
         "date": "2026-02-28",
         "start_time_millis": 1772236800000,
         "end_time_millis": 1772323200000,
-        "value": null,
-        "values": []
+        "value": 2,
+        "values": [
+          2
+        ]
       }
     ],
     "heart_rate_bpm": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": 59,
+        "values": [
+          77.00959785821412,
+          105,
+          59
+        ]
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -333,13 +1162,174 @@
         "end_time_millis": 1772323200000,
         "value": 58.09993362426758,
         "values": [
-          66.89290023873332,
+          67.94893136349265,
           108,
           58.09993362426758
         ]
       }
     ],
     "weight_kg": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": null,
+        "values": []
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": null,
+        "values": []
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -399,6 +1389,190 @@
       }
     ],
     "sleep_segments": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": null,
+        "values": [],
+        "sessions": 0
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
@@ -484,6 +1658,259 @@
       }
     ],
     "workout_sessions": [
+      {
+        "date": "2026-01-30",
+        "start_time_millis": 1769731200000,
+        "end_time_millis": 1769817600000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-01-31",
+        "start_time_millis": 1769817600000,
+        "end_time_millis": 1769904000000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-01",
+        "start_time_millis": 1769904000000,
+        "end_time_millis": 1769990400000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-02",
+        "start_time_millis": 1769990400000,
+        "end_time_millis": 1770076800000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-03",
+        "start_time_millis": 1770076800000,
+        "end_time_millis": 1770163200000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-04",
+        "start_time_millis": 1770163200000,
+        "end_time_millis": 1770249600000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-05",
+        "start_time_millis": 1770249600000,
+        "end_time_millis": 1770336000000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-06",
+        "start_time_millis": 1770336000000,
+        "end_time_millis": 1770422400000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-07",
+        "start_time_millis": 1770422400000,
+        "end_time_millis": 1770508800000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-08",
+        "start_time_millis": 1770508800000,
+        "end_time_millis": 1770595200000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-09",
+        "start_time_millis": 1770595200000,
+        "end_time_millis": 1770681600000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-10",
+        "start_time_millis": 1770681600000,
+        "end_time_millis": 1770768000000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-11",
+        "start_time_millis": 1770768000000,
+        "end_time_millis": 1770854400000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-12",
+        "start_time_millis": 1770854400000,
+        "end_time_millis": 1770940800000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-13",
+        "start_time_millis": 1770940800000,
+        "end_time_millis": 1771027200000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-14",
+        "start_time_millis": 1771027200000,
+        "end_time_millis": 1771113600000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-15",
+        "start_time_millis": 1771113600000,
+        "end_time_millis": 1771200000000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-16",
+        "start_time_millis": 1771200000000,
+        "end_time_millis": 1771286400000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-17",
+        "start_time_millis": 1771286400000,
+        "end_time_millis": 1771372800000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-18",
+        "start_time_millis": 1771372800000,
+        "end_time_millis": 1771459200000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-19",
+        "start_time_millis": 1771459200000,
+        "end_time_millis": 1771545600000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-20",
+        "start_time_millis": 1771545600000,
+        "end_time_millis": 1771632000000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
+      {
+        "date": "2026-02-21",
+        "start_time_millis": 1771632000000,
+        "end_time_millis": 1771718400000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
+      },
       {
         "date": "2026-02-22",
         "start_time_millis": 1771718400000,
