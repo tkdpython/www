@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-02T15:12:04Z",
+  "last_updated": "2026-03-02T15:22:11Z",
   "steps": {
     "date": "2026-03-02",
-    "value": 1344
+    "value": 1559
   },
   "weight_kg": {
     "date": "2026-02-28",
@@ -17,7 +17,7 @@
   },
   "heart_rate_bpm": {
     "date": "2026-03-02",
-    "value": 64
+    "value": 63
   },
   "activities": {
     "date": "2026-02-28",
