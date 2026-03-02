@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T08:37:50Z",
+  "last_updated": "2026-03-02T08:47:56Z",
   "end_date": "2026-03-02",
   "metrics": {
     "steps": [
@@ -221,17 +221,19 @@
         "date": "2026-03-01",
         "start_time_millis": 1772323200000,
         "end_time_millis": 1772409600000,
-        "value": 12434,
+        "value": 12591,
         "values": [
-          12434
+          12591
         ]
       },
       {
         "date": "2026-03-02",
         "start_time_millis": 1772409600000,
         "end_time_millis": 1772496000000,
-        "value": null,
-        "values": []
+        "value": 893,
+        "values": [
+          893
+        ]
       }
     ],
     "calories": [
@@ -457,17 +459,19 @@
         "date": "2026-03-01",
         "start_time_millis": 1772323200000,
         "end_time_millis": 1772409600000,
-        "value": 2123.380422054653,
+        "value": 2319.84403618921,
         "values": [
-          2123.380422054653
+          2319.84403618921
         ]
       },
       {
         "date": "2026-03-02",
         "start_time_millis": 1772409600000,
         "end_time_millis": 1772496000000,
-        "value": null,
-        "values": []
+        "value": 758.3485639930636,
+        "values": [
+          758.3485639930636
+        ]
       }
     ],
     "distance_meters": [
@@ -689,17 +693,19 @@
         "date": "2026-03-01",
         "start_time_millis": 1772323200000,
         "end_time_millis": 1772409600000,
-        "value": 8220.037802673232,
+        "value": 8374.460547960149,
         "values": [
-          8220.037802673232
+          8374.460547960149
         ]
       },
       {
         "date": "2026-03-02",
         "start_time_millis": 1772409600000,
         "end_time_millis": 1772496000000,
-        "value": null,
-        "values": []
+        "value": 613.5164593485397,
+        "values": [
+          613.5164593485397
+        ]
       }
     ],
     "active_minutes": [
@@ -1167,7 +1173,7 @@
         "end_time_millis": 1772409600000,
         "value": 58,
         "values": [
-          78.41428433779043,
+          78.99324257675603,
           135,
           58
         ]
@@ -1176,8 +1182,12 @@
         "date": "2026-03-02",
         "start_time_millis": 1772409600000,
         "end_time_millis": 1772496000000,
-        "value": null,
-        "values": []
+        "value": 72,
+        "values": [
+          85.60673759733004,
+          101,
+          72
+        ]
       }
     ],
     "weight_kg": [
