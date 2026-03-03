@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T10:49:44Z",
+  "last_updated": "2026-03-03T10:59:51Z",
   "end_date": "2026-03-03",
   "metrics": {
     "steps": [
@@ -232,9 +232,9 @@
         "date": "2026-03-03",
         "start_time_millis": 1772496000000,
         "end_time_millis": 1772582400000,
-        "value": 2989,
+        "value": 3257,
         "values": [
-          2989
+          3257
         ]
       }
     ],
@@ -472,9 +472,9 @@
         "date": "2026-03-03",
         "start_time_millis": 1772496000000,
         "end_time_millis": 1772582400000,
-        "value": 888.1506422099724,
+        "value": 953.4947143701252,
         "values": [
-          888.1506422099724
+          953.4947143701252
         ]
       }
     ],
@@ -708,9 +708,9 @@
         "date": "2026-03-03",
         "start_time_millis": 1772496000000,
         "end_time_millis": 1772582400000,
-        "value": 2116.103196615304,
+        "value": 2323.780059451188,
         "values": [
-          2116.103196615304
+          2323.780059451188
         ]
       }
     ],
@@ -942,9 +942,9 @@
         "date": "2026-03-03",
         "start_time_millis": 1772496000000,
         "end_time_millis": 1772582400000,
-        "value": 18,
+        "value": 20,
         "values": [
-          18
+          20
         ]
       }
     ],
@@ -1198,7 +1198,7 @@
         "end_time_millis": 1772582400000,
         "value": 54,
         "values": [
-          71.73759776652304,
+          72.47522758444484,
           100,
           54
         ]
@@ -2062,12 +2062,32 @@
         "date": "2026-03-03",
         "start_time_millis": 1772496000000,
         "end_time_millis": 1772582400000,
-        "value": null,
-        "total_minutes": 0,
-        "total_calories": null,
-        "workout_count": 0,
-        "workouts": [],
-        "activity_summary": {}
+        "value": 34.7,
+        "total_minutes": 34.7,
+        "total_calories": 111.5,
+        "workout_count": 1,
+        "workouts": [
+          {
+            "activity": "Activity 93",
+            "activity_type": 93,
+            "duration_mins": 34.7,
+            "calories": 111.5,
+            "distance_meters": 730.8,
+            "start_time": "2026-03-03T08:36:45.997000+00:00",
+            "name": "Walking",
+            "hr_zones": {
+              "zone_1_recovery_mins": 19.78,
+              "zone_2_fat_burn_mins": 0.0,
+              "zone_3_aerobic_mins": 0.0,
+              "zone_4_threshold_mins": 0.0,
+              "zone_5_vo2_max_mins": 0.0,
+              "max_hr_used": 169
+            }
+          }
+        ],
+        "activity_summary": {
+          "Activity 93": 34.7
+        }
       }
     ]
   }
