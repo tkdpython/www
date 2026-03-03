@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-03T10:49:44Z",
+  "last_updated": "2026-03-03T10:59:51Z",
   "steps": {
     "date": "2026-03-03",
-    "value": 2989
+    "value": 3257
   },
   "weight_kg": {
     "date": "2026-02-28",
@@ -20,21 +20,21 @@
     "value": 54
   },
   "activities": {
-    "date": "2026-02-28",
+    "date": "2026-03-03",
     "workout_count": 1,
-    "total_minutes": 30.6,
-    "total_calories": 192,
+    "total_minutes": 34.7,
+    "total_calories": 111.5,
     "workouts": [
       {
-        "activity": "Spinning",
-        "duration_mins": 30.6,
-        "distance_km": 11.76,
-        "calories": 192,
+        "activity": "Activity 93",
+        "duration_mins": 34.7,
+        "distance_km": 0.73,
+        "calories": 111.5,
         "hr_zones": {
-          "zone_1_recovery_mins": 1.97,
-          "zone_2_fat_burn_mins": 7.62,
-          "zone_3_aerobic_mins": 26.16,
-          "zone_4_threshold_mins": 0.12,
+          "zone_1_recovery_mins": 19.78,
+          "zone_2_fat_burn_mins": 0.0,
+          "zone_3_aerobic_mins": 0.0,
+          "zone_4_threshold_mins": 0.0,
           "zone_5_vo2_max_mins": 0.0,
           "max_hr_used": 169
         }
