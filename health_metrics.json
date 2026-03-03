@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T05:51:58Z",
+  "last_updated": "2026-03-03T06:02:04Z",
   "end_date": "2026-03-03",
   "metrics": {
     "steps": [
@@ -1973,7 +1973,7 @@
             "activity_type": 95,
             "duration_mins": 55.6,
             "calories": 469.4,
-            "distance_meters": 4874.0,
+            "distance_meters": null,
             "start_time": "2026-02-27T09:13:57.122000+00:00",
             "name": "Walking",
             "hr_zones": {
