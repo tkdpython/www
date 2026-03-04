@@ -1,15 +1,8 @@
 {
-  "last_updated": "2026-03-03T23:59:22Z",
-  "end_date": "2026-03-03",
+  "last_updated": "2026-03-04T00:09:29Z",
+  "end_date": "2026-03-04",
   "metrics": {
     "steps": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -236,16 +229,16 @@
         "values": [
           7388
         ]
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "calories": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -476,16 +469,16 @@
         "values": [
           1980.5674372177314
         ]
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "distance_meters": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -712,16 +705,16 @@
         "values": [
           5210.372496966793
         ]
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "active_minutes": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -946,16 +939,16 @@
         "values": [
           67
         ]
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "heart_rate_bpm": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -1202,16 +1195,16 @@
           117,
           54
         ]
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "weight_kg": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": []
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -1422,17 +1415,16 @@
         "end_time_millis": 1772582400000,
         "value": null,
         "values": []
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": []
       }
     ],
     "sleep_segments": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "values": [],
-        "sessions": 0
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -1696,20 +1688,17 @@
           1.56
         ],
         "sessions": 2
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "values": [],
+        "sessions": 0
       }
     ],
     "workout_sessions": [
-      {
-        "date": "2026-02-02",
-        "start_time_millis": 1769990400000,
-        "end_time_millis": 1770076800000,
-        "value": null,
-        "total_minutes": 0,
-        "total_calories": null,
-        "workout_count": 0,
-        "workouts": [],
-        "activity_summary": {}
-      },
       {
         "date": "2026-02-03",
         "start_time_millis": 1770076800000,
@@ -2088,6 +2077,17 @@
         "activity_summary": {
           "Activity 93": 34.7
         }
+      },
+      {
+        "date": "2026-03-04",
+        "start_time_millis": 1772582400000,
+        "end_time_millis": 1772668800000,
+        "value": null,
+        "total_minutes": 0,
+        "total_calories": null,
+        "workout_count": 0,
+        "workouts": [],
+        "activity_summary": {}
       }
     ]
   }
