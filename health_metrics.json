@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T13:54:26Z",
+  "last_updated": "2026-03-05T14:04:48Z",
   "end_date": "2026-03-05",
   "metrics": {
     "steps": [
@@ -2025,7 +2025,7 @@
             "activity_type": 17,
             "duration_mins": 30.6,
             "calories": 192,
-            "distance_meters": 11759.7,
+            "distance_meters": null,
             "start_time": "2026-02-28T09:02:13+00:00",
             "name": "Cycling",
             "hr_zones": {
